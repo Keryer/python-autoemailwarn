@@ -1,5 +1,5 @@
 # AutoEmailWarn / 邮件告警与通知工具
-[![PyPI version](https://img.shields.io/pypi/v/autoemailearn.svg)](https://pypi.org/project/autoemailearn/) [![Python versions](https://img.shields.io/pypi/pyversions/autoemailearn.svg)](https://pypi.org/project/autoemailearn/) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE) [![Downloads](https://static.pepy.tech/badge/autoemailearn)](https://pepy.tech/project/autoemailearn)
+[![PyPI version](https://img.shields.io/pypi/v/autoemailwarn.svg)](https://pypi.org/project/autoemailwarn/) [![Python versions](https://img.shields.io/pypi/pyversions/autoemailwarn.svg)](https://pypi.org/project/autoemailwarn/) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE) [![Downloads](https://static.pepy.tech/badge/autoemailwarn)](https://pepy.tech/project/autoemailwarn)
 
 A lightweight Python helper to send emails and automatically notify on uncaught exceptions. Suitable for scripts, services, batch jobs, and long-running processes.
 
