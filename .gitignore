@@ -77,3 +77,5 @@ autoemailwarn.egg-info/
 # ---- Optional: docs build ----
 docs/_build/
 site/
+
+main.py
