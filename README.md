@@ -1,4 +1,5 @@
 # AutoEmailWarn / 邮件告警与通知工具
+[![PyPI version](https://img.shields.io/pypi/v/autoemailearn.svg)](https://pypi.org/project/autoemailearn/) [![Python versions](https://img.shields.io/pypi/pyversions/autoemailearn.svg)](https://pypi.org/project/autoemailearn/) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE) [![Downloads](https://static.pepy.tech/badge/autoemailearn)](https://pepy.tech/project/autoemailearn)
 
 A lightweight Python helper to send emails and automatically notify on uncaught exceptions. Suitable for scripts, services, batch jobs, and long-running processes.
 
@@ -33,11 +34,18 @@ A lightweight Python helper to send emails and automatically notify on uncaught 
 ---
 
 ## Installation | 安装
-You can install from local source or build a wheel first.
+You can install from PyPI or from local source.
 
-你可以直接从本地源码安装，或先构建再安装。
+你可以通过 PyPI 安装，或从本地源码安装。
 
-- Option A: Install from source (PEP 517)
+- Option A: Install from PyPI (recommended)
+  - 通过 PyPI 安装（推荐）
+
+```
+pip install autoemailearn
+```
+
+- Option B: Install from source (PEP 517)
   - 源码直接安装（PEP 517）
 
 ```
@@ -45,7 +53,7 @@ You can install from local source or build a wheel first.
 pip install .
 ```
 
-- Option B: Build then install
+- Option C: Build then install
   - 先构建，再安装
 
 ```
@@ -202,10 +210,3 @@ autoemailwarn/
 main.py                      # 示例入口（基于 EmailNotifier）
 pyproject.toml               # 构建配置（setuptools backend）
 ```
-
----
-
-## License | 许可
-This project’s license can be added here by the author.
-
-本项目许可信息由作者在此处补充。
