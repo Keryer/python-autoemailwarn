@@ -1,0 +1,79 @@
+# ---- Python build/cache ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# ---- Packaging ----
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+wheels/
+share/python-wheels/
+MANIFEST
+.installed.cfg
+.pypirc
+pyproject.toml
+
+# ---- Virtual environments ----
+.env
+.env.*
+.venv
+.venv*/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# ---- Test/coverage caches ----
+.coverage
+.coverage.*
+.cache/
+.pytest_cache/
+.tox/
+.nox/
+pytestdebug.log
+htmlcov/
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# ---- Type checkers ----
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+# ---- Editors/IDEs ----
+.vscode/
+.idea/
+*.code-workspace
+
+# ---- OS junk ----
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ---- Logs ----
+logs/
+*.log
+
+# ---- Misc tooling ----
+.ipynb_checkpoints/
+.scrapy/
+web/assets-cache/
+
+# ---- Project specific ----
+autoemailwarn.egg-info/
+.pypirc  # private PyPI credentials; keep this out of VCS
+
+# ---- Optional: docs build ----
+docs/_build/
+site/
